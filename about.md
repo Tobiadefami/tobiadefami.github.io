@@ -3,6 +3,4 @@ layout: post
 title: About
 ---
 
-This is an example page!
-
-Actually, it has the same layout of a post...
+Hey, now that you're here I guess I should introduce myself -- My name is Oluwatobi and i'm a machine learning researcher at pragmatic machine learning. 
