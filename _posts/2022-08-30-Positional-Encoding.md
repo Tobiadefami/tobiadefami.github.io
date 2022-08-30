@@ -1,11 +1,11 @@
 ---
 layout: post
 author: oluwatobi adefami
-title: understanding positional encoding with jax
+title: Understanding Positional Encoding with Jax
 mathjax: true
 ---
 
-## Understanding Positional Encoding
+## Positional Encoding -- Overview
 
 ```python
 import jax.numpy as jnp
