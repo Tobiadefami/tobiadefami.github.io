@@ -15,7 +15,7 @@ import numpy as np
 plt.style.use('seaborn')
 ```
 
-|![positional encoding](/images/p_e.png)|
+|![positional encoding](/assets/p_e.png)|
 |:--:|
 | <b>Fig.1 - Positional Encoding Layer of the Transformer Model</b>|
 
@@ -59,7 +59,7 @@ for i in range(4):
 ```
 
 
-|![positional encoding matrix](/images/p_e_matrix.png)|
+|![positional encoding matrix](/assets/p_e_matrix.png)|
 |:--:|
 | <b>Fig.2 - Positional encoding matrix</b>|
 
