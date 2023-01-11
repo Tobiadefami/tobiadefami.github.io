@@ -10,8 +10,9 @@ Language modeling arguably accounts for a large part of the research carried out
 
 Essentially, The paper demystifies the speculative expecation(s) involving dependence of model performance on factors like model architecture, neural model size, amount of compute available, and dataset size. Full paper is available [here](https://arxiv.org/abs/2001.08361)
 
-The below figure shows 
+The below figure shows the relationship observed between loss and increase in the scale of model size, dataset size and compute magnitude. 
 
 |![loss relstionship prelim](/assets/power-law-relationship1.png)|
 |:--:|
-| <b>Fig.1 - </b>|
+| <b>Fig.1 - a language model's performance improves smoothly as the model size, dataset size, and amount of compute used for training increases. To achieve optimal performance, all three factors must be scaled up in tandem, while empirical performance has a power-law relationship with each individual factor when not bottlenecked by the other two</b>|
+
