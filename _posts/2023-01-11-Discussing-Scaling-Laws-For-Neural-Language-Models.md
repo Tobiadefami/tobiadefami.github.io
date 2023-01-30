@@ -14,5 +14,8 @@ The below figure shows the relationship observed between loss and increase in th
 
 |![loss relstionship prelim](/assets/power-law-relationship1.png)|
 |:--:|
-| <b>Fig.1- Power-law scaling relationship between test loss and compute budget, dataset size, and model size respectively</b>|
+|Fig.1- Power-law scaling relationship between test loss and compute budget, dataset size, and model size respectively|
 
+From the above diagram a few discussions could be drawn:
+
+1. Model Performance depends more on scale than on shape: Scaling factors including the number of parameters **N**, the dataset size **D**, and the compute budget **C** used for training, 
