@@ -18,4 +18,10 @@ The below figure shows the relationship observed between loss and increase in th
 
 From the above diagram a few discussions could be drawn:
 
-1. Model Performance depends more on scale than on shape: Scaling factors including the number of parameters **N**, the dataset size **D**, and the compute budget **C** used for training, 
+1. **Model Performance depends more on scale than on shape**: Scaling factors including the number of parameters **N**, the dataset size **D**, and the compute budget **C** used for training have been shown to play a more significant role in a model's performance compared to other architectural hyperparameters such as depth vs width.
+
+2. **Smooth power-laws**: The test loss L has a power law relationship with each of N, C, and D across several orders of magnitude (power law relationships are linear on a log-log scale). [explanation: the power-law is a functional relationship between any two quantities; a relative change in one quantity causes a prportional relative change in the other quantity, independent of the initial magnitude of the quantities in question]
+
+3. **Universatility of overfitting**: The model's performance improves predictably given that **N** and **D** are scaled in tandem, and a performance dips when **N** and **D** are held while other quantities are increased.
+
+4. **Universatility of training**: 
