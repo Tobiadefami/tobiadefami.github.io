@@ -31,7 +31,7 @@ From the above diagram a few discussions could be drawn:
 
 5. **Sample Efficiency**: Large models reach the same level with fewer optimization steps while using fewer data points when compared to small models, making them more sample-efficient. this is shown in the figure below:
 
-![loss relstionship prelim](/assets/sample-efficiency.png)|
+![sample efficiency of large models](/assets/sample-efficiency.png)|
 |:--:|
 |Fig.2- large models are more sample efficient|
 
