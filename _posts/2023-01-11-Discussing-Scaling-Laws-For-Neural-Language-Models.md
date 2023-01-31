@@ -33,6 +33,7 @@ From the above diagram a few discussions could be drawn:
 
 ![loss relstionship prelim](/assets/sample-efficiency.png)|
 |:--:|
+|Fig.2- large models are more sample efficient|
 
 6. **Convergence is inefficient**: In an event where compute budget **C** is limited but there are no restrictions to the magnitude of the model size **N** and dataset size **D**, optimal performance is attained by training very large models and stopping short of convergence.
 
