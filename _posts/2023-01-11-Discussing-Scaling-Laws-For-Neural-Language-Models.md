@@ -31,10 +31,11 @@ From the above diagram a few discussions could be drawn:
 
 5. **Sample Efficiency**: Large models reach the same level with fewer optimization steps while using fewer data points when compared to small models, making them more sample-efficient. this is shown in the figure below:
 
+6. **Convergence is inefficient**: In an event where compute budget **C** is limited but there are no restrictions to the magnitude of the model size **N** and dataset size **D**, optimal performance is attained by training very large models and stopping short of convergence.
+
+7. **Optimal batch size**: It was discovered that the batch size required to train the models is roughly a power of the loss only, and continues to be determined by measuring the gradient of the noise scale [MKAT18];
+
+
 |![sample efficiency of large models000](/assets/sample-efficiency.png)|
 |:--:|
 |Fig.2- large models are more sample efficient|
-
-6. **Convergence is inefficient**: In an event where compute budget **C** is limited but there are no restrictions to the magnitude of the model size **N** and dataset size **D**, optimal performance is attained by training very large models and stopping short of convergence.
-
-7. **Optimal batch size**: It was discovered that the batch size required to train the models is roughly a power of the loss only, and continues to be determined by measuring the gradient of the noise scale [MKAT18]; r 
