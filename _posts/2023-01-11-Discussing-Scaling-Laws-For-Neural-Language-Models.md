@@ -36,6 +36,6 @@ From the above diagram a few discussions could be drawn:
 7. **Optimal batch size**: It was discovered that the batch size required to train the models is roughly a power of the loss only, and continues to be determined by measuring the gradient of the noise scale [MKAT18];
 
 
-|![sample efficiency of large models000](/assets/sample-efficiency.png)|
+|![sample efficiency of large models](/assets/sample-efficiency.png)|
 |:--:|
 |Fig.2- large models are more sample efficient|
